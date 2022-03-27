@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+ 
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: var(--m-font-color) !important;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.banner_wrapper{
+    width: 100%;
+    
+   background: url("../images/banner.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+  
+}
+.home_div{
+    position: relative;
+   display: flex;
+   flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    justify-items: center;
+    min-height: 100vh;
+    padding: 0 100px;
+}
+.mnt_div{
+    position: relative;
+}
+.mtn1{
+   
+}
+.mnt_div .mtn2{
+ 
+}
+:root{
+    /* --primary-color: */
+    /* --secondary-color: */
+    /* --bg-main-color: */
+    /* --bg-sec-color: */
+    --m-font-color: #1B1464;
+    /* --sec-font-color: */
+    --bt-color: #00F2E6;
+}
+
+
+.main-btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 8px 20px;
+    background-color: var(--bt-color);
+    color: var(--m-font-color);
+    font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-decoration: none;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px 0px 0;
+text-transform: uppercase;
+letter-spacing: 1px;
+position: relative;
+border: 2px solid var(--bt-color);
+
+}
+.moon{
+    position: absolute;
+    width: 100px;
+    right: 25%;
+    top: 20%;
+}
+.mnt2{
+    position: absolute;
+    width: 900px;
+    bottom:0%;
+    right: -200px;
+}
+ 
+.about_tag{
+    
+   text-align: center;
+    margin-top: 50px;
+    color: white;
+   font-size: 20px;
+   position: relative;
+}
+.about_tag::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: var(--bt-color);
+    left: 47%;
+   
+    top: 30px;
+  
+}
+.how_div{
+    padding: 20px;
+    
+}
+.cont-div{
+    padding: 10px;
+    color: white;
+}
+.contact-div{
+    background: linear-gradient(261.63deg, rgba(0, 242, 230, 0.1) -15.38%, rgba(0, 180, 240, 0.1) 107.69%);
+    display: flex;
+    border-radius: 12px;
+    padding: 0px 10px;
+    text-align: left;
+    align-items: center;
+     border: 1px solid #00f2e671;
+}
+.heading-cont{
+    color: var(--bt-color);
+}
+.contact{
+    text-align: center;
+    color: white;
+}
+.conatc_tag:after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: var(--bt-color);
+    left: 47.5%;
+    margin-top: 35px;
+   
+}
+.hr_lin{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.copyryt{
+    float: right;
+    color: white;
+    padding: 0 20px;
+}
+.footer_div{
+    padding: 0% 0% 0 0%;
+}
+.footer_div ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+}
+.hr{
+  
+    width: 100%;
+    height: 1px;
+    opacity: 1;
+     
+    background-color: #bcdfdd2d;
+}
+.contact-row{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 20px;
+    margin: 50px 200px 50px 200px;
+}
+ .how_head{
+     color: var(--bt-color);
+ }
+  
+ .header-scrolled{
+    transition: 1s linear;
+width: 100%;
+background: #1B1464;
+
+}
+.header-scrolled .main-btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--bt-color);
+    color: white;
+
+    
+}
+.div1{
+    opacity: 0 !important;
+}
+.div1.animated{
+    opacity: 1 !important;
+}
+.div2{
+    opacity: 0 !important;
+}
+.div2.animated{
+    opacity: 1 !important;
+}
+.div3{
+    opacity: 0 !important;
+}
+.div3.animated{
+    opacity: 1 !important;
+}
+.bg{
+    display: block;
+   color: white;
+   background: linear-gradient(261.63deg, rgba(0, 242, 230, 0.1) -15.38%, rgba(0, 180, 240, 0.1) 107.69%);
+opacity: 1;
+border-radius: 24px;
+margin: 60px 200px;
+  
+}
+.how1{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 0px;
+  
+    
+}
+ 
+.about_desc{
+position: absolute;
+bottom: -10px;
+width: 30%;
+color: white;
+}
+.about{
+    text-align: center;
+}
+ 
+ 
+ 
+.about_div{
+    width: 100%;
+    text-align: left;
+    position: relative;
+    background: var(--m-font-color) url("../images/stars-pattern.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+display: flex;
+flex-direction: row;
+}
+ 
+.mtn1{
+    position: absolute;
+    width: 600px;
+    bottom: 0%;
+    right: 250px;
+}
+ 
+.op_tag{
+    font-size: 6rem !important;
+    font-family: 'Titillium Web' !important;
+    color: var(--bt-color) !important;
+    opacity: 0.2;
+    font-weight: 900 !important;
+}
+.home-div1{
+    z-index: 1;
+}
+.home-div1 h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+.main-btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--m-font-color);
+    color: white;
+
+    
+}
+
+.header-wrapper .navbar-brand img{
+    max-width: 180px;
+}
+.header-wrapper .navbar-toggler{
+    border: 0;
+    color: white;
+}
+.header-wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header-wrapper .nav-item{
+    margin: 0 10px;
+}
+
+.header-wrapper .nav-item .nav-link{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    opacity: 0.85;
+    font-weight: bold;
+    display: inline-block;
+}
+.header-wrapper .nav-item .nav-link.active,
+.header-wrapper .nav-item .nav-link:hover{
+    color: var(--bt-color);
+}
